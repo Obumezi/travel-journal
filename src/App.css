@@ -27,3 +27,31 @@ body {
   align-self: center;
   font-size: large;
 }
+.title-container {
+  display: flex;
+  gap: 10px;
+  padding: 20px 20px;
+}
+
+.title-image {
+  height: 400px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  gap: 10px;
+}
+
+.location {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-weight: 700 bold;
+}
