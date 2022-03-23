@@ -34,7 +34,9 @@ body {
 }
 
 .title-image {
-  height: 300px;
+ height: 300px;
+ width: 300px;
+ border-radius: 5%;
 }
 
 .details-container {
@@ -51,7 +53,6 @@ body {
 
 .location {
   font-weight: 400 normal;
- 
 }
 
 .title {

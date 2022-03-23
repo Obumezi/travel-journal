@@ -3,7 +3,7 @@ import fuji from '../assets/mountfuji.svg'
 export function TravelCard(props) {
     return (
         <div className="title-container">
-            <img className="title-image" src={fuji} alt="travel" />
+            <img className="title-image" src={`${props.item.imageUrl}`} alt="travel" />
 
             <div className="details-container">
 
