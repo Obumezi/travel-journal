@@ -1,13 +1,16 @@
 import fuji from '../assets/mountfuji.svg'
 
-
 export function TravelCard(props) {
     return (
         <div className="title-container">
-            <img className="title-image" src={fuji} alt="travel"/>
+            <img className="title-image" src={fuji} alt="travel" />
 
-            <div className="test">
-                <h5 className="location">{props.item.location}</h5>
+            <div className="details-container">
+
+                <div className="top-details">
+                    <div className="location">{props.item.location}</div>
+                    <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                </div>
 
                 <h1 className="title">{props.item.title}</h1>
                 <div className="date">
@@ -17,6 +20,7 @@ export function TravelCard(props) {
                 </div>
 
                 <p className="title-details">{props.item.description}.</p>
+                
             </div>
         </div>
     )

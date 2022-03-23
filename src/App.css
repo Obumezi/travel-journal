@@ -34,12 +34,14 @@ body {
 }
 
 .title-image {
-  height: 400px;
+  height: 300px;
 }
 
-.test {
+.details-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .date {
@@ -48,10 +50,16 @@ body {
 }
 
 .location {
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 400 normal;
+ 
 }
 
 .title {
   font-weight: 700 bold;
+}
+
+.top-details {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
