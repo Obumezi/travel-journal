@@ -1,4 +1,4 @@
-import fuji from '../assets/mountfuji.svg'
+import pin from '../assets/map-pin.svg'
 
 export function TravelCard(props) {
     return (
@@ -8,8 +8,9 @@ export function TravelCard(props) {
             <div className="details-container">
 
                 <div className="top-details">
+                    <img className="card-pin" src={pin}/>
                     <div className="location">{props.item.location}</div>
-                    <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    <a className="title-map" href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
 
                 <h1 className="title">{props.item.title}</h1>

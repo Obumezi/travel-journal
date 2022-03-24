@@ -34,9 +34,9 @@ body {
 }
 
 .title-image {
- height: 300px;
- width: 300px;
- border-radius: 5%;
+  height: 300px;
+  width: 300px;
+  border-radius: 5%;
 }
 
 .details-container {
@@ -53,6 +53,7 @@ body {
 
 .location {
   font-weight: 400 normal;
+  font-size: 25px;
 }
 
 .title {
@@ -63,4 +64,13 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.title-map {
+  margin-top: 6.8px;
+}
+
+.card-pin {
+  width: 20px;
+  color: #f55a5a;
 }
