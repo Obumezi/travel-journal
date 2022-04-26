@@ -6,6 +6,7 @@ import Data from './Data'
 function App() {
   const travelEx = Data.map(item => {
     return <TravelCard
+    //returns whole array
       item={item}
     />
   })
