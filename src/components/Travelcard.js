@@ -13,7 +13,7 @@ export function TravelCard(props) {
                     <div className="location">{props.item.location}</div>
                     <a className="title-map" href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
-4
+
                 <h1 className="title">{props.item.title}</h1>
                 <div className="date">
                     <h5>{props.item.startDate} -</h5>
